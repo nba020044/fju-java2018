@@ -16,6 +16,7 @@ public class Hello {
  System.out.println(age);
  System.out.println(height);
  System.out.println(weight);
+ System.out.println(schoolYear);
  System.out.println(mood);
  System.out.println(weather);
  System.out.println(breakfast);
