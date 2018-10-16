@@ -4,7 +4,20 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
- System.out.println("Hello world");
+		System.out.println( 3 == 5);
+		String s = new String("abc");
+		System.out.println(s);
+		String s2 = new String("abc");
+		System.out.println(s.equals(s2));
+ //
+	Student stu = new Student("Yoyo",80,90,85,70);
+	//stu.math = 80;
+	//stu.english = 90;
+	//stu.chinese = 85;
+	//stu.art = 70;
+	stu.print();
+ 
+/*		System.out.println("Hello world");
  int age = 28;
  int height = 165;
  int weight = 52; 
@@ -21,6 +34,6 @@ public class Hello {
  System.out.println(weather);
  System.out.println(breakfast);
  System.out.println(dinner);
-	}
+	 */}
 
 }
