@@ -1,9 +1,16 @@
 package com.yoyo;
 
+import java.util.Scanner;
+
 public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.print("Your name:");
+		Scanner scanner = new Scanner(System.in);
+		String name = scanner.nextLine();
+		System.out.println(name);
+		
 		System.out.println( 3 == 5);
 		String s = new String("abc");
 		System.out.println(s);
