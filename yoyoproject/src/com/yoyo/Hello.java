@@ -6,7 +6,7 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("Your name:");
+	/*	System.out.print("Your name:");
 		Scanner scanner = new Scanner(System.in);
 		String name = scanner.nextLine();
 		System.out.println(name);
@@ -15,7 +15,7 @@ public class Hello {
 		String s = new String("abc");
 		System.out.println(s);
 		String s2 = new String("abc");
-		System.out.println(s.equals(s2));
+		System.out.println(s.equals(s2)); */
  //
 	Student stu = new Student("Yoyo",80,90,85,70);
 	//stu.math = 80;
@@ -23,6 +23,7 @@ public class Hello {
 	//stu.chinese = 85;
 	//stu.art = 70;
 	stu.print();
+	}
  
 /*		System.out.println("Hello world");
  int age = 28;
