@@ -42,6 +42,6 @@ public class Hello {
  System.out.println(weather);
  System.out.println(breakfast);
  System.out.println(dinner);
-	 */}
+	 */
 
-}
+} 
